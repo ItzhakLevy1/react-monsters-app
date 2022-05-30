@@ -17,6 +17,7 @@ class App extends Component {
     fetch("https://jsonplaceholder.typicode.com/users")
     .then(response => response.json())
     .then(users => this.setState({ monsters:users }));
+    // this.focus();
   }
 
   handleChange = e => {
@@ -33,6 +34,7 @@ class App extends Component {
       <div className="App">
         <h1> Monsters Rolodex </h1>
           <SearchBox
+          autoFocus
           placeholder="search monsters"
           handleChange={e => this.setState({ searchField:e.target.value })}
           />
