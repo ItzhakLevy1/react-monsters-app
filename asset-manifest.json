@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/react-monsters-app/static/css/main.3d48d4b9.css",
+    "main.js": "/react-monsters-app/static/js/main.4a0b4a6d.js",
+    "index.html": "/react-monsters-app/index.html",
+    "main.3d48d4b9.css.map": "/react-monsters-app/static/css/main.3d48d4b9.css.map",
+    "main.4a0b4a6d.js.map": "/react-monsters-app/static/js/main.4a0b4a6d.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.3d48d4b9.css",
+    "static/js/main.4a0b4a6d.js"
+  ]
+}
